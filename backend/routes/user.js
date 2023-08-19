@@ -10,15 +10,6 @@ const router = express.Router();
 
 
 //Route2 -Authenticate user  api/auth/login
-router.get('/',(req,res)=>{
-    obj={
-        a:"ro",
-        number:34
-    }
-    res.json(obj)
-})
-
-
 router.post(
     "/details",
     
